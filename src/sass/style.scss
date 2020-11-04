@@ -1,5 +1,6 @@
 @import 'base/variables';
 @import 'base/mixins';
+@import 'base/media';
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
@@ -9,7 +10,15 @@
     max-width: 950px;
     margin: 0 auto;
 }
+
 @import 'block/promo';
 @import 'block/header';
+<<<<<<< HEAD
 @import 'block/button';
 @import 'block/advatages';
+@import 'block/title';
+
+@import 'base/media';
+=======
+@import 'block/button';
+>>>>>>> parent of 7f192d8... Add new block
