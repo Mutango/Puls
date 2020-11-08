@@ -2,15 +2,12 @@
     .container {
         max-width: 950px;
     }
-
-    
 }
 
 @media (max-width: 991px) {
     .container {
         max-width: 720px;
     }
-
     
 }
 
@@ -42,6 +39,16 @@
             font-size: 14px;
             line-height: 14px;
         }
+        &_submit {
+            width: 300px;
+            height: 55px;
+            font-size: 16px;
+        }
+        &_mini {
+            width: 100px;
+            height: 35px;
+            font-size: 14px;
+        }
     }
 
     .promo {
@@ -78,6 +85,9 @@
 
     .title {
         font-size: 28px;
+        &_left {
+            font-size: 36px;
+        }
     }
 
     .advantages {
@@ -99,6 +109,12 @@
         }
         &__descr {
             display: none;
+        }
+    }
+
+    .corusel {
+        &__inner {
+            width: 550px;
         }
     }
 }
@@ -128,6 +144,16 @@
             font-size: 14px;
             line-height: 14px;
         }
+        &_submit {
+            width: 270px;
+            height: 50px;
+            font-size: 16px;
+        }
+        &_mini {
+            width: 100px;
+            height: 35px;
+            font-size: 14px;
+        }
     }
 
     .promo {
@@ -164,6 +190,14 @@
 
     .title {
         font-size: 28px;
+        &_left {
+            font-size: 30px;
+            line-height: 36px;
+            width: 300px;
+            span {
+                display: none;
+            }
+        }
     }
 
     .advantages {
@@ -185,6 +219,59 @@
         }
         &__descr {
             display: none;
+        }
+    }
+
+    .consultations {
+        padding: 50px 20px 50px 20px;
+        &__descr {
+            margin-top: 55px;
+            br {
+                display: none;
+            }
+        }
+    }
+
+    .feed-form {
+        align-items: center;
+        input {
+            width: 270px;
+        }
+    }
+
+    .corusel {
+        &__inner {
+            width: 300px;
+        }
+    }
+
+    .catalog {
+        padding-left: 20px;
+        padding-right: 20px;
+        &__tabs {
+            margin-top: 40px;
+        }
+        &__content {
+            margin-top: 50px;
+        }
+        &-item {
+            width: 240px;
+            &__subtitle {
+                display: block;
+                margin: 0 auto;
+                width: 180px;
+            }
+            &__descr {
+                display: block;
+                margin: 0 auto;
+                width: 180px;
+            }
+            &__price {
+                font-size: 18px;
+            }
+            &__content {
+                margin-right: 10px;
+            }
         }
     }
 }

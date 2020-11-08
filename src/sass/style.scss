@@ -7,7 +7,8 @@
 }
 
 .container {
-    max-width: 950px;
+    position: relative;
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -16,5 +17,9 @@
 @import 'block/button';
 @import 'block/advatages';
 @import 'block/title';
+@import 'block/consultations';
+@import 'block/feed-form';
+@import 'block/corusel';
+@import 'block/catalog';
 
 @import 'base/media';
